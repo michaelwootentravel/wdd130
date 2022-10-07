@@ -25,7 +25,7 @@ body {
     background-color: #03045e; 
 }
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color:#0077b6;
 }
 nav a:hover {
     background-color: black;
@@ -34,34 +34,34 @@ nav a:hover {
     background-color: #03045e
 }
 .join {
-    background-color: #03045e
+    background-color: #0077b6
 }
 .book:hover {
     background-color: aqua;
 }
 .join:hover {
-    background-color: black;
+    background-color: aqua;
 }
 #background {
-    background-color: #03045e;
+    background-color: #0077b6;
 }
 .msg {
     background-color: aliceblue;
 }
 footer {
-    background-color: #03045e;
+    background-color: aqua;
 }  
 nav a {
-    color: #03045e;
+    color: aqua;
 }
 nav a:hover {
     color: aliceblue;
 }
 .home-title {
-    color: #000;
+    color: #0077b6;
 }
 h4 {
-    color: #000;
+    color: #0077b6;
 }
 .book {
     color: #03045e;
@@ -76,16 +76,16 @@ h4 {
     color: aliceblue;
  }
 .msg h2 {
-    color: #000;
+    color: #0077b6;
 }
 .msg p {
-    color: #000;
+    color: #0077b6;
 }
 footer h3 {
-    color: #000;
+    color: #0077b6;
 }
 footer a {
-    color: #03045e;
+    color: #0077b6;
 }
 footer a:hover{
     color: aliceblue;
