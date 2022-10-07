@@ -22,7 +22,7 @@ main section {
     height: 725px;
 }
 body {
-    background-color: #03045e; 
+    background-color: aqua; 
 }
 header {
     background-color:#0077b6;
@@ -31,7 +31,7 @@ nav a:hover {
     background-color: aqua;
 }
 .book {
-    background-color: #03045e
+    background-color: aqua
 }
 .join {
     background-color: #0077b6
