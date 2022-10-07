@@ -90,3 +90,9 @@ footer a {
 footer a:hover{
     color: aliceblue;
 }
+.icon {
+    width: 80px;
+}
+.logo {
+    width: 80px;
+}
