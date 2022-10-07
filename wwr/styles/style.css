@@ -28,7 +28,7 @@ header {
     background-color:#0077b6;
 }
 nav a:hover {
-    background-color: black;
+    background-color: aqua;
 }
 .book {
     background-color: #03045e
@@ -64,10 +64,10 @@ h4 {
     color: #0077b6;
 }
 .book {
-    color: #03045e;
+    color: aqua;
 }
 .join {
-    color: #03045e;
+    color: aqua;
 }
 .book:hover {
     color: aliceblue;
