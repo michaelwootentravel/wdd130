@@ -20,6 +20,9 @@ nav a  {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
 }
@@ -83,11 +86,16 @@ h4 {
     color: aqua;
     font-size: 18px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 .join {
     color: aqua;
     font-size: 18px;
     margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
 }
 .book:hover {
     color: aliceblue;
