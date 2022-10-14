@@ -26,6 +26,9 @@ main section {
 body {
     background-color: aqua; 
     font-family: 'New Rocker', cursive;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#0077b6;
@@ -50,9 +53,13 @@ nav a:hover {
 }
 .msg {
     background-color: aliceblue;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: aqua;
+    padding: 25px 50px;
+    margin-top: 200px;
 }  
 nav a {
     color: aqua;
@@ -63,15 +70,24 @@ nav a:hover {
 .home-title {
     color: #0077b6;
     font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h2 {
+    margin: 0;
 }
 h4 {
     color: #0077b6;
 }
 .book {
     color: aqua;
+    font-size: 18px;
+    margin-top: 50px;
 }
 .join {
     color: aqua;
+    font-size: 18px;
+    margin-top: 50px;
 }
 .book:hover {
     color: aliceblue;
@@ -85,6 +101,17 @@ h4 {
 }
 .msg p {
     color: #0077b6;
+    font-size: 2em;
+    padding-bottom: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
 }
 footer h3 {
     color: #0077b6;
@@ -97,6 +124,7 @@ footer a:hover{
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
@@ -105,21 +133,26 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
+
 }    
 .book {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 15px 30px;
 }    
 .join {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 15px 30px;
 }    
 footer a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+
 }    
 footer p {
     font-size: 1.2em;
@@ -127,3 +160,6 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 } 
+footer .social img { 
+ padding-top: 15px;
+}
