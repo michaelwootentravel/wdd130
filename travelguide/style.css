@@ -70,8 +70,8 @@ body, html {
 
 /* The hero image */
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (images/vienna\ city\ center.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/vienna\ city\ center.jpg");
+  /* Use "linear-gradient" to add a darken background effect to the image (images/Vienna_main_train_station.jpg"). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Vienna_main_train_station.jpg");
 
   /* Set a specific height */
   height: 50%;
