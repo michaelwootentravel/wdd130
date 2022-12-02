@@ -128,15 +128,20 @@ footer {
   
   /* main */
   #main{
-    min-height: 400px;
+    min-height: 1000px;
     background: url(../travelguide/images/Vienna_main_train_station.jpg) no-repeat 0 --400px;
     text-align: center;
     color: #ffffff;
   
   }
 
-  #main{
+  #main h1{
     margin-top: 100px;
     font-size: 55px;
     margin-bottom: 10px;
+  }
+
+  #main p{
+    font-size: 20px;
+
   }
