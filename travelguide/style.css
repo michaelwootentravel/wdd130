@@ -127,7 +127,7 @@ footer {
   }
   
   /* main */
-  #main{
+  main{
     min-height: 400px;
     background: url(images/Vienna_main_train_station.jpg) no-repeat;
   }
