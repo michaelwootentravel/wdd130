@@ -87,7 +87,7 @@ nav {
     float: left;
     display: inline;
     padding: 0 20px 0 20px;
-    
+
   }
 footer {
     display: block;
@@ -126,48 +126,3 @@ footer {
     color: white;
   }
   
-  /*Tiktok*/
-  .fa-tiktok {
-    background: #000000;
-    color: #fff;
-  }
-
-  /*learn*/
-  section {
-    width: 80%;
-    margin: 80px auto;
-  }
-  
-  .title {
-    text-align: center
-    font-size: 
-    color: #fff;
- }
-
- .row {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
- }
- .row .col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
- }
- .learn .row{
-    margin-top: 50px;
- }
- h4{
-    font-size: medium;
-    color: #55ACEE;
-    margin: 20px auto;
- }
- p {
-    color:#3B5998;
-    padding: 0px 40px;
- }
- .learn .ctn {
-    margin-top: 30%;
- }
