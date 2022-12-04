@@ -232,3 +232,55 @@ footer {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+#banner {
+	margin: 0px auto;
+	width: 1000px;
+	height: 440px;
+	background: url(images/vienna_city_center_300x500.jpg) no-repeat left bottom;
+}
+
+#banner .content {
+}
+#featured-content {
+	overflow: hidden;
+	width: 1000px;
+	margin: 0px auto;
+	padding: 30px 0px;
+	border-bottom: 5px solid #E9EAEE;	
+}
+
+#featured-content h2 {
+	padding: 0px 0px 20px 0px;
+	font-size: 30px;
+}
+
+#featured-content #column1 {
+	float: left;
+	width: 300px;
+	margin-right: 50px;
+}
+
+#featured-content #column2 {
+	float: left;
+	width: 300px;
+}
+
+#featured-content #column3 {
+	float: right;
+	width: 300px;
+}
+
+.button a {
+	display: block;
+	float: left;
+	width: 88px;
+	padding: 5px 5px;
+	margin-right: 10px;
+	background: #50B200;
+	border-radius: 5px;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+}
+
