@@ -129,7 +129,7 @@ footer {
   /* main */
   #main{
     min-height: 500px;
-    background: url(../travelguide/images/vienna_city_center_300x500.jpg) no-repeat 0 500px;
+    background: url(#) no-repeat 0 500px;
     text-align: center;
     color: #ffffff;
   
