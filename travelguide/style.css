@@ -281,3 +281,10 @@ body, html {
   background-color: #555;
   color: white;
 }
+
+.featured-content-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  grid-gap: 1.5rem;
+  align-items: center;
+}
