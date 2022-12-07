@@ -41,15 +41,21 @@
         <button>More information</button>
       </div>
     </div>
-   
-    <section id="boxes">
-        <div class="container">
+    <div id="featured-content">
+      <div id="column1">
+        <h3> ATTRACTIONS, FOOD AND ITINERARIES</h3>
+        <p><img src="images/Praquetrainstation_50.jpg" width="300" height="150" alt="" /></p>
+        <p>Find out how to have fun and eat on a budget</p>
+        <p class="button"><a href="#">Click here</a></p>
+      </div>
+      <div id="column2">
+        <h3>WHAT DOCUMENTS DO I NEED</h3>
+        <p><img src="images/brno1_50.jpg" width="300" height="150" alt="" /></p>
+        <p>Find out what documents you need.</p>
+              <p class="button"><a href="#">Read More</a></p>
+      </div>
+    </div>
 
-            <div class="box">
-                <img src="images/Praquetrainstation_50.jpg" alt="">
-                <h3> ATTRACTIONS, FOOD AND ITINERARIES</h3>
-                <p>Click here to find out how to have fun and eat on a budget</p>
-            </div>
 
             <div class="box">
                 <img src="images/brno1_50.jpg" alt="">
@@ -58,9 +64,6 @@
             </div>
         </div>
 
-    </section>
-
-   
       
 <p>
 
@@ -91,23 +94,7 @@
 <a href="#" class="fa fa-youtube"></a>
 ...
   </footer>
-  <script>
-let slideIndex = 0;
-showSlides();
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-
-  </script>
 
         </body>
         </html>
