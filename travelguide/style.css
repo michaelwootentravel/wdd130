@@ -59,36 +59,49 @@ nav {
   }
 
   /* header */
-  header {
-    background: #55ACEE;
-    color: #ffffff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #000000 3px solid;
-
-
-  }
-
-  header a{
-    color: #ffffff;
+  a {
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-
   }
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./images/Vienna_main_train_station.jpg);
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  header ul{
-    margin: 0;
-    padding: 0;
+}
+.header-content {
+  margin-bottom: 150px;
+  color: #ffffff;
+  text-align: center;
 
-  }
+}
+.header-content h2{
+  font-size: 4vmin; 
 
-  header li{
-    float: left;
-    display: inline;
-    padding: 0 20px 0 20px;
+}
+.line {
+  width: 150px;
+  height: 4px;
+background: red;
+margin: 10px auto;
+border-radius: 5px;
+}
 
-  }
+.header-content h1 {
+font-size: 7vmin;
+margin-top: 50px;
+margin-bottom: 30px;
+}
+.ctn {
+  padding: 8px 25px;
+  background: red;
+  border-radius: 30px;
+  color: #ffffff;
+}
 footer {
     display: block;
   }
@@ -148,71 +161,3 @@ footer {
   * {box-sizing:border-box}
 
 
-
-#banner {
-	margin: 0px auto;
-	width: 1000px;
-	height: 440px;
-	background: url() no-repeat left bottom;
-}
-
-.container {
-  display: flex;
-}
-.item {
-  flex:1;
-  text-align: center;
-  border: 1px solid red;
-  margin: 5px;
-}
-img {
-  width: 150px;
-}
-
-*{padding: 0; margin: 0; box-sizing: border-box;}
-body{height: 900px;}
-header {
-	background: url('images/vienna_city_center_300x500.jpg');
-	text-align: center;
-	width: 100%;
-	height: auto;
-	background-size: cover;
-	background-attachment: fixed;
-	position: relative;
-	overflow: hidden;
-	border-radius: 0 0 85% 85% / 30%;
-}
-header .overlay{
-	width: 100%;
-	height: 100%;
-	padding: 50px;
-	color: #FFF;
-	text-shadow: 1px 1px 1px #333;
-  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
-	
-}
-
-h1 {
-	font-family: 'Dancing Script', cursive;
-	font-size: 80px;
-	margin-bottom: 30px;
-}
-
-h3, p {
-	font-family: 'Open Sans', sans-serif;
-	margin-bottom: 30px;
-}
-
-button {
-	border: none;
-	outline: none;
-	padding: 10px 20px;
-	border-radius: 50px;
-	color: #333;
-	background: #fff;
-	margin-bottom: 50px;
-	box-shadow: 0 3px 20px 0 #0000003b;
-}
-button:hover{
-	cursor: pointer;
-}
