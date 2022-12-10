@@ -1,4 +1,4 @@
-            @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -240,16 +240,15 @@ footer {
 	background: url() no-repeat left bottom;
 }
 
-/*========= MAIN CONTENT CONTAINERS ========= */
-/*Desktops */
-@media all and (min-width: 768px) { .container-block {padding: 4% 8% } }
-
-/*mobiles */
-@media all and (min-width: 767px) { .container-block { padding: 11% 8% } }
-
-/*Desktops: flexbox child columns */
-@media all and (min-width: 768px) { .item-col-3 { width: 29%;} }
-
-/*mobiles flexbox child columns*/
-@media all and (min-width: 767px) { .item-col-3{ width: 100%; } 
-  
+.container {
+  display: flex;
+}
+.item {
+  flex:1;
+  text-align: center;
+  border: 1px solid red;
+  margin: 5px;
+}
+img {
+  width: 128px;
+}
