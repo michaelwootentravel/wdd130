@@ -64,7 +64,7 @@ nav {
   }
 header {
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
   background-image: url(./images/Vienna_main_train_station.jpg);
   background-position: bottom;
   background-size: cover;
@@ -202,5 +202,5 @@ p {
 }
 .thingstodoandmore .ctn {
   margin-top: 30px;
-  
+
 }
