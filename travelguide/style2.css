@@ -1,7 +1,6 @@
-@import "bourbon";
+
 
 @import url(https://fonts.googleapis.com/css?family=Signika:300,400,600,700);
-
 
 
 * {
@@ -11,20 +10,6 @@
   -webkit-font-smoothing: antialiased;
 }
 
-html, body {
-  height: 100%;
-  font: 300 100%/1.4 'Signika', sans-serif;
-}
-
-img {
-  max-width: 100%;
-}
-
-.flex-contents {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
 
 .header {
   flex: 1;
@@ -77,9 +62,6 @@ main {
  flex: 8;
 }
 
-.footer {
-  flex: 1;
-}
 
 .hero {
   padding: 0 3rem;
