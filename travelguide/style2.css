@@ -17,8 +17,9 @@
   align-items: center;
   align-content: center;
   padding: 1rem;
-  background: $blue;
+  background: blue;
   color: rgba(white, .5);
+}
   a {
     color: white;
     text-decoration: none;
@@ -29,13 +30,13 @@
   nav {
     flex: 6;
   }
-}
 
-.logo {
+
+.logo 
  h1 {
    margin: 0;
  } 
-}
+
 
 .navbar {
   height: 100%;
@@ -43,20 +44,22 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
   ul {
     flex: 1;
     display: flex;
     margin: 0;
     list-style: none inside;
     min-height: 100%;
+  }
     li {
       flex: 1;
       display: flex;
       flex-direction: column;
       justify-content: center;
     }
-  }
-}
+  
+
 
 main {
  flex: 8;
@@ -74,3 +77,4 @@ main {
   text-align: center;
   font-size: 2rem;
   min-height: 25rem;
+}
