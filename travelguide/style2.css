@@ -71,7 +71,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/79266/BA1yLjNnQCI1yisIZGEi_2013-07-16_1922_IMG_9873.jpg') no-repeat center center;
+  background: url('images/Vienna_main_train_station_50.jpg') no-repeat center center;
   background-size: cover;
   color: white;
   text-align: center;
