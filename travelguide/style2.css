@@ -1,155 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import "bourbon";
+
+@import url(https://fonts.googleapis.com/css?family=Signika:300,400,600,700);
+
+
 
 * {
-  padding: 0;
   margin: 0;
-  text-decoration: none;
-  list-style: none;
+  padding: 0;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 
-body {
-  font-family: Lato,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: #fff;
-
-}
-body, html {
-    overflow-x: hidden;
-}
-nav {
-  background: rgb(53, 66, 185);
-  height: 70px;
-  width: 100%;
-}
-
-nav ul {
-  float: right;
-  margin-right: 20px;
-}
-
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
-}
-
-nav ul li a {
-  color: white;
-  font-size: 17px;
-  text-transform: uppercase;
-  padding: 7px 13px;
-  border-radius: 7px;
-}
-
-a.active,
-a:hover {
-  background: turquoise;
-  transition: .5s;
-}
-
-.logo {
-  width: 200px;
-  height: 60px;
-  position: absolute;
-  top: 10px;
-  left: 5px;
+html, body {
+  height: 100%;
+  font: 300 100%/1.4 'Signika', sans-serif;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-  }
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-    text-decoration: none;
-  }
-
-body, html {
-    height: 100%;
+  max-width: 100%;
 }
 
-footer {
-    display: block;
-  }
-  /* Style all font awesome icons */
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
+.flex-contents {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.header {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 1rem;
+  background: $blue;
+  color: rgba(white, .5);
+  a {
+    color: white;
     text-decoration: none;
   }
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.7;
+  .logo {
+    flex: 4;
   }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
+  nav {
+    flex: 6;
   }
-  
-  /* Twitter */
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
+}
 
-  /* Youtube */
-  .fa-youtube {
-    background: crimson;
-    color: white;
-  }
-  
-  /*Tiktok*/
-  .fa-tiktok {
-    background: #000000;
-    color: #fff;
-  }
+.logo {
+ h1 {
+   margin: 0;
+ } 
+}
 
-  /*learn*/
-  section {
-    width: 80%;
-    margin: 80px auto;
-  }
-  
-  .title {
-    text-align: center
-    font-size: 
-    color: #fff;
- }
-
- .row {
+.navbar {
+  height: 100%;
+  padding: .25rem 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  ul {
+    flex: 1;
     display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
- }
- .row .col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: 0;
+    list-style: none inside;
+    min-height: 100%;
+    li {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
 
- }
- .learn .row{
-    margin-top: 50px;
- }
- h4{
-    font-size: medium;
-    color: #55ACEE;
-    margin: 20px auto;
- }
- p {
-    color:#3B5998;
-    padding: 0px 40px;
- }
- .learn .ctn {
-    margin-top: 30%;
- }
+main {
+ flex: 8;
+}
+
+.footer {
+  flex: 1;
+}
+
+.hero {
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/79266/BA1yLjNnQCI1yisIZGEi_2013-07-16_1922_IMG_9873.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  min-height: 25rem;
