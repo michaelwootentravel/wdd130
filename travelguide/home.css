@@ -138,6 +138,46 @@ section {
     margin-top: 30px;
   
   }
+  .information1 .row .col {
+    width: 50%;
+    
+  }
+  .content-col{
+    width: 40%;
+  }
+  .image-col {
+    width: 60%;
+
+  }
+    .information1 .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      align-items: center;
+  
+    }
+    .image-gallery img {
+      max-width: 300px;
+      margin: 10px;
+  
+  
+    }
+.content-col h1{
+font-size: 7vmin;
+color: aqua;
+
+}
+.content-col .line {
+  margin-left: -1px;
+}
+.content-col p{
+  padding: 0;
+  margin 30px auto; 
+
+
+}
+.content-col .ctn
+margin-left -100p
 
 /*footer*/
 
