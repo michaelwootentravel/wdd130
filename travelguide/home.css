@@ -28,7 +28,7 @@ background-image: url();
 }
 .logo{
     width: 140px;
-    height: auto;
+    height: 75px;
     padding: 20px 100px;
 }
 .navbar ul{
